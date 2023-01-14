@@ -46,7 +46,7 @@ namespace RandomBattlegroundsBobSkin
                 if (heroType == Assets.CardHero.HeroType.BATTLEGROUNDS_GUIDE)
                 {
                     cardId = RandomBattlegroundsBobSkinMod.currentBobSkin;
-                    RandomBattlegroundsBobSkinMod.SharedLogger.Msg($"Assigned new skin {cardId} to Bob");
+                    //RandomBattlegroundsBobSkinMod.SharedLogger.Msg($"Assigned new skin {cardId} to Bob");
                 }
             }
             return true;
